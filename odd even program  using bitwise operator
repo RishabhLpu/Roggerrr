@@ -1,0 +1,15 @@
+
+#include<iostream>
+using namesapce std;
+int main() {
+    int a=6;
+int b=a<<15;
+    if(b)
+    {
+    std::cout << "ODD";
+}
+else{
+    std::cout<<"even";
+    }
+    return 0;
+}
