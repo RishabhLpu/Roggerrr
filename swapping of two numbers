@@ -1,1 +1,11 @@
-
+#include<iostream>
+int main()
+{
+int 5;
+int b=6;
+a=a^b;
+b=b^a;
+a=a^b;
+std::cout<<a;
+return 0;
+}
