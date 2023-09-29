@@ -1,0 +1,13 @@
+//write a program to print odd and even number without any use of loop and condition
+#include <iostream>
+ using namespace std; 
+int main() {
+    int a,b;
+    cin>>a>>b;
+    (a>b)&&printf("a greater");
+    (b>a)&&printf("b greater");
+    (a==b)&&printf("a and b are equals");
+    
+
+    return 0;
+}
