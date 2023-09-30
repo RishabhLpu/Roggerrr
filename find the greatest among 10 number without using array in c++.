@@ -1,0 +1,17 @@
+find the greatest among 10 number without using array.
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int b,i=1;
+    cin>>n;
+    b=n;
+    do{
+        i++;
+        cin>>n;
+        if(b>n)
+        b=n;
+        
+    }while(i<=10);
+    return 0;
+}
